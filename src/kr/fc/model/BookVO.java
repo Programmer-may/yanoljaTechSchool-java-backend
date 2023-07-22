@@ -11,4 +11,9 @@ public class BookVO {
     // setter, getter 메소드를 갖게된다.
     public int price;
 
+    public BookVO(){}
+    //생략된 생서자 메소드: 디폴트 생성자
+    //리턴 타입이 없다
+    //클래스 명과 메소드 명이 같다.
+    // 자신의 모든 멤버변수들을 메모리에 로딩한다.
 }
