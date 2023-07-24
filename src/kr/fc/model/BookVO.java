@@ -5,15 +5,32 @@ public class BookVO {
     // class
     // 1. 모델링도구
     // 2.데이터 타입 측면에선 새로운 자료형을 만드는 도구 (uddt), 새로운 자료형
-    public String title; // public , private 등등: 접근 제한자 (Access modifier)
+    private String title; // public , private 등등: 접근 제한자 (Access modifier)
     // 클래스 끼리 접근 가능한지 불가능 한지 제한자를 둔다.
     // 정보 은닉을 위해 접근제한자를 private로 두고 이때 객체에 접근하기 위해 우회적인 방법으로
     // setter, getter 메소드를 갖게된다.
-    public int price;
+    private int price;
 
     public BookVO(){}
     //생략된 생서자 메소드: 디폴트 생성자
     //리턴 타입이 없다
     //클래스 명과 메소드 명이 같다.
     // 자신의 모든 멤버변수들을 메모리에 로딩한다.
+
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) { // DI - 의존성 주입 디펜던시 인젝션
+        this.title = title;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
 }
