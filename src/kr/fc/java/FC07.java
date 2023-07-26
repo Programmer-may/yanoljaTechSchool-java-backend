@@ -11,17 +11,20 @@ public class FC07 {
         // 00 01 02 10 11 12
 
         //모든 원소에 10을 저장하시오
-        for(int i=0 ; i<arr.length; i++){
-            for(int j=0;j<arr[i].length;i++){
-                arr[i][j]=10;
-            }
-        }
-        /*
-        for(int i=0; i<arr.length;i++){
-            Arrays.fill(arr[i],10);
-        }
-        */
 
+        //case 01
+        //for(int i=0 ; i<arr.length; i++){
+            //for(int j=0;j<arr[i].length;i++){
+              //  arr[i][j]=10;
+            //}
+        //}
+        // case 02. 2차원배열 arr에 10 넣기
+
+        for (int i = 0; i< arr.length; i++) {
+            Arrays.fill(arr[i], 10);
+
+        }
+        System.out.println(arr.length);
+        System.out.println(Arrays.toString(arr));
     }
-    
 }
