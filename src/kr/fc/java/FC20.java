@@ -1,5 +1,6 @@
 package kr.fc.java;
 
+import kr.fc.poly3.Radio;
 import kr.fc.poly3.RemoCon;
 import kr.fc.poly3.TV;
 
@@ -12,7 +13,7 @@ public class FC20 {
         tv.volUp();
         tv.volDown();
 
-        RemoCon radio = new TV();
+        RemoCon radio = new Radio();
         radio.chUP(); // 다형성
         radio.chDown();
         radio.volUp();
