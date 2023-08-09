@@ -23,4 +23,15 @@ public abstract class Animal { //추상 클래스 (불완전한 클래스)
     }
 
     // abstract class 라는게 의미적으로 객체를 생성해서 쓰는게 아니라 부모로서 쓰기 위함이란 느낌이 있다.
+
+
+    /*
+    public void play(){
+        System.out.println("사람과 함께 움직인다");
+    }
+    하마 클래스는 공통된 기능을 가질 수 없다.
+     */
+
+
+
 }
